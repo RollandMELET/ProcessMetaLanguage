@@ -1,0 +1,58 @@
+# === ProcessMetaLanguage .gitignore ===
+# Date: 2025-01-19
+# Auteur: Rolland MELET & Claude Code
+
+# Répertoires à exclure
+old/
+.old/
+**/old/
+
+# Fichiers d'environnement
+.env
+.env.local
+.env.production
+.env.development
+*.env
+.envrc
+
+# Fichiers Obsidian spécifiques
+.obsidian/workspace*
+.obsidian/cache/
+.obsidian/plugins/*/data.json
+.obsidian/hotkeys.json
+.obsidian/workspaces.json
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers temporaires
+*.tmp
+*.temp
+~$*
+.~*
+
+# Logs
+*.log
+logs/
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+*~
+
+# Répertoires de build/dist
+build/
+dist/
+node_modules/
+
+# Fichiers IDE
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+
+# Fichiers sensibles
+secrets.md
+private/
+confidential/

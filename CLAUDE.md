@@ -110,3 +110,4 @@ Templates should follow this structure:
 - Embedded content: Markdown documentation
 - State transitions: Action definitions
 - Behavior patterns: Reusable components
+- add to memory en phase de developpement de TOUJOURS generer des scripts qui loggent leur actions dans la console, une fois que l'utilisateur est ok avec le fonctionnement du script proposer de generer une version de production SANS logg dans la console
